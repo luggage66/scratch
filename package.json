@@ -2,7 +2,11 @@
   "name": "scratch",
   "version": "0.1.0",
   "description": "Scratch",
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^1.8.0"
+  },
+  "main": "dist/scratch.js",
+  "types": "dist/scratch.d.ts",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-shell": "^0.6.3",
