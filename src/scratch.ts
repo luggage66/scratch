@@ -345,7 +345,7 @@ export class Stroke
 /**
  * A stroke point with optional values.
  */
-type LinePointPartial =
+export type LinePointPartial =
 {
 	/** The X coordinate of the point. */
 	x?: number,
